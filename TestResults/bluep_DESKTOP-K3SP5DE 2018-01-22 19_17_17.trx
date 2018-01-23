@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0240d339-0d1d-42b9-9820-d10dfbae69f6" name="bluep@DESKTOP-K3SP5DE 2018-01-22 19:17:17" runUser="DESKTOP-K3SP5DE\bluep" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="fffd51a9-c5ed-4cb2-ab7e-cad6913c082b">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="bluep_DESKTOP-K3SP5DE 2018-01-22 19_17_17" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2018-01-22T19:17:17.7672127-05:00" queuing="2018-01-22T19:17:18.3658699-05:00" start="2018-01-22T19:17:18.4489297-05:00" finish="2018-01-22T19:17:19.1115262-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="webapplication2test\bin\debug\webapplication2test.dll" id="5b6423b1-5669-7241-3236-c0f972b85c21">
+      <Execution id="409c0553-37f8-4482-a77b-10c36a415ab3" />
+      <TestMethod codeBase="C:/Users/bluep/Documents/Visual Studio 2017/Projects/WebApplication2/WebApplication2Test/bin/debug/WebApplication2Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WebApplication2Test.UnitTest1, WebApplication2Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5b6423b1-5669-7241-3236-c0f972b85c21" executionId="409c0553-37f8-4482-a77b-10c36a415ab3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="409c0553-37f8-4482-a77b-10c36a415ab3" testId="5b6423b1-5669-7241-3236-c0f972b85c21" testName="TestMethod1" computerName="DESKTOP-K3SP5DE" duration="00:00:00.0131227" startTime="2018-01-22T19:17:18.5973151-05:00" endTime="2018-01-22T19:17:19.0451781-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="409c0553-37f8-4482-a77b-10c36a415ab3">
+    </UnitTestResult>
+  </Results>
+</TestRun>
